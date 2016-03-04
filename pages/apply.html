@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../pics/chuang_icon.png">
+        <title>申请项目</title>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/basic.css">
+        <link rel="stylesheet" href="../css/apply.css">
+    </head>
+    
+    <body>
+        <div id="nav">
+<!--            导航栏，每个页面都一样 样式写在basic.css里-->
+            <div id="logo">
+                <a href="index%E2%88%9A.html" title="创·不凡">创·不凡</a>
+            </div>
+            <ul>
+                <li>
+                        <a href="index%E2%88%9A.html">首页</a>
+                </li>
+                <li>
+                    <a href="project.html">创业项目</a>
+                </li>
+                <li>
+                        <a href="moment.html">创业动态</a>
+                </li>
+                <li>
+                        <a href="policy.html">政策宣传</a>
+                </li>
+                <li>
+                        <a href="about.html">关于我们</a>
+                </li>
+                </ul>
+            
+            <div id="user">
+                <img id="user_icon" src="../pics/useronline.ico">
+                <a href="personal_center.html" title="个人中心">个人中心</a>
+            </div>
+            
+        </div>
+        <div id="placeholder"></div>
+        
+        <div id="content">
+            <form method="post">
+                <fieldset>
+                    <legend>申请项目</legend>
+                    <h1>申请人基本信息</h1>
+                    <h2>---填写真实的信息会帮助你顺利的找到合伙人---</h2>
+                    <label class="label_text">真实姓名</label>
+                    <input class="user_info" id="username" type="text">
+                    <label id="username_error" class="error_message">*请填写你的真实姓名！</label><br>
+                    
+                    <label class="label_text">出生年月</label>
+                    <input class="user_info" id="birthday" type="date"><br>
+                    
+                    <label class="label_text">性&nbsp;&nbsp;别&nbsp;&nbsp;</label>
+                    <select class="user_info">
+                        <option>男</option>
+                        <option>女</option>
+                    </select><br>
+                    
+                    <label class="label_text">所在学校</label>
+                    <input type="text" class="user_info" id="school">
+                    <label class="error_message" id="school_error">*请填写你就读的学校！</label><br>
+                    
+                    <label class="label_text">学&nbsp;&nbsp;历&nbsp;&nbsp;</label>
+                    <select class="user_info">
+                        <option>本科</option>
+                        <option>硕士</option>
+                        <option>博士</option>
+                    </select><br>
+                    
+                    <label class="label_text">联系电话</label>
+                    <input class="user_info" id="tel" type="tel">
+                    <label class="error_message" id="tel_error">*请输入你的联系电话！</label><br>
+                    
+                    <label class="label_text">常用邮箱</label>
+                    <input class="user_info" id="mail" type="text">
+                    <label class="error_message" id="mail_error">*请填写你的邮箱！</label><br>
+                    
+                    <hr>
+                    <h1>项目成员基本信息</h1>
+                    <h2>---详细的成员信息可以展示团队的潜力---</h2>
+                    <label class="label_text">成员姓名</label>
+                    <input type="text" class="user_info" id="member"><br>
+                    
+                    <label class="label_text">学校分布</label>
+                    <input class="user_info" id="member_school"><br>
+                    
+                    <label class="label_text">详细介绍</label>
+                    <textarea></textarea>
+                    <hr>
+                    
+                    <h1>创业项目信息</h1>
+                    <h2>---概括性的项目基础信息帮助你获得投资者的关注---</h2>
+                    <label class="label_text">团队名称</label>
+                    <input type="text" class="user_info" id="team_name">
+                    <label class="error_message" id="team_error">*团队名称不能为空！</label><br>
+                    
+                    <label class="label_text">项目名称</label>
+                    <input class="user_info" id="project_name" type="text">
+                    <label class="error_message" id="project_error">*项目名称不能为空！</label><br>
+                    
+                    <label class="label_text">涉及领域</label>
+                    <input class="user_info" type="text" id="area">
+                    <label class="error_message" id="area_error">*涉及的行业领域不能为空！</label><br>
+                    
+
+                    <label class="label_text">项目介绍</label>
+                    <textarea id="intro"></textarea>
+                    <label class="error_message" id="intro_error">*项目介绍不能为空！</label>
+                    
+                    <label class="label_text">是否已开发APP</label>
+                    <select class="user_info">
+                        <option>是</option>
+                        <option>否</option>
+                    </select><br>
+                    
+                    <button id="submit">提交</button>
+                </fieldset>
+            </form>
+            
+        </div>
+        
+        <div id="footer">
+            <address>Designed by Kyrie Liu</address>
+            <address>Contact: kyrieliu02@163.com</address>
+        </div>
+        
+        
+        <script type="text/javascript" src="../jQuery/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="../js/apply.js"></script>
+    </body>
+</html>

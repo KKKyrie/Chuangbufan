@@ -1,0 +1,103 @@
+body{
+    overflow: hidden;
+}
+
+div#logo a{
+    color: black;
+}
+
+div#content{
+    background-image: url(../pics/cloud.jpg);
+    background-size: cover;
+}
+
+#content_login{
+    border: 2px solid transparent;
+    height: 330px;
+    width: 400px;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px black;
+    -o-box-shadow: 0px 0px 10px black;
+    -ms-box-shadow: 0px 0px 10px black;
+    -webkit-box-shadow: 0px 0px 10px black;
+    -moz-box-shadow: 0px 0px 10px black;
+}
+
+#content_login_head{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 20%;
+/*    background-image: url(../pics/blingbling.jpg);*/
+    background-size: auto;
+}
+
+#content_login_head p{
+    color: white;
+    font-size: 2em;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+
+#hr{
+    width: 75%;
+}
+
+#content_login_username,
+#content_login_password{
+    border: 1px solid transparent;
+    width: 80%;
+    height: 20%;
+    margin-top: 1.2em;
+    margin-left: 11%;
+}
+
+#label_username,
+#label_password{
+    font-size: 2em;
+    font-family: "微软雅黑";
+    color: aliceblue;
+}
+
+#input_username,
+#input_password{
+    width: 60%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 4%;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+button{
+    color: aliceblue;
+    background-color: royalblue;
+    border: 0px;
+    font-weight: bold;
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px blue;
+    -o-box-shadow: 0px 0px 5px blue;
+    -ms-box-shadow: 0px 0px 5px blue;
+    -moz-box-shadow: 0px 0px 5px blue;
+    -webkit-box-shadow: 0px 0px 5px blue;
+}
+
+#content_login_btn{
+    margin-left: 27%;
+    margin-top: 5%;
+    font-size: 1.5em;
+    width: 20%;
+    height: 10%;
+}
+
+#content_register_btn{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 1.5em;
+    width: 20%;
+    height: 10%;
+}

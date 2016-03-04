@@ -1,0 +1,285 @@
+div#content{
+/*    原始样式定义在basic.css里*/
+    height: 158%;
+    background-image: url(../pics/cloud.jpg);
+    background-size: cover;
+}
+
+div#moment{
+    border: 1px solid transparent;
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.2);
+    -o-background-color: rgba(0,0,0,0.2);
+    -ms-background-color: rgba(0,0,0,0.2);
+    -moz-background-color: rgba(0,0,0,0.2);
+    -webkit-background-color: rgba(0,0,0,0.2);
+}
+
+div#user_block{
+    border: 1px solid black;
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+div#text{
+    border: 1px solid transparent;
+    width: 70%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+div#text label#guide{
+    font-size: 1.7em;
+    font-family: "微软雅黑";
+}
+
+label#input_tip{
+    margin-left: 25%;
+    font-family: "微软雅黑";
+    font-size: 1.5em;
+}
+
+label#number{
+    font-family: cursive;
+    font-size: 20px;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+div#input_div{
+    border: 1px solid transparent;
+    height: 45%;
+    width: auto;
+    margin-left: 15%;
+}
+
+textarea#textarea_input{
+    width: 80%;
+    height: 100%;
+    font-size: 1.5em;
+    resize: none;
+/*    使其不能由用户调节大小，禁止右下角小三角形的功能*/
+}
+
+button#release{
+    height: 15%;
+    width: 10%;
+    margin-left: 73%;
+    margin-top: 1.5%;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    background-color: rgb(0,130,255);
+    -o-background-color: rgb(0,130,255);
+    -ms-background-color: rgb(0,130,255);
+    -moz-background-color: rgb(0,130,255);
+    -webkit-background-color: rgb(0,130,255);
+    border: 0;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    -o-box-shadow: 0px 0px 5px black;
+    -ms-box-shadow: 0px 0px 5px black;
+    -webkit-box-shadow: 0px 0px 5px black;
+    -moz-box-shadow: 0px 0px 5px black;
+}
+
+button#release:hover{
+    background-color: rgb(0,110,255);
+    -o-background-color: rgb(0,110,255);
+    -moz-background-color: rgb(0,110,255);
+    -ms-background-color: rgb(0,110,255);
+    -webkit-background-color: rgb(0,110,255);
+}
+
+div#released_moment{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 80%;
+    height: 100em;
+    margin-left: 10%;
+    margin-top: 1%;
+    overflow: auto;
+/*    动态增多现有宽度满足不了时，自动添加滚动条*/
+/*    background-image: url(../pics/cloud.jpg);*/
+/*    background-size:cover;*/
+    background-color: transparent;
+}
+
+div.moment_blocks{
+    border: 1px solid black;
+    width: 90%;
+    height: 160px;
+/*    position: relative;*/
+    margin-top: 1%;
+    margin-left: 5%;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+
+div.user_photo{
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+/*    border-radius: 50%;*/
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: 0px 0px 1px black;
+    -o-box-shadow: 0px 0px 1px black;
+    -ms-box-shadow: 0px 0px 1px black;
+    -moz-box-shadow: 0px 0px 1px black;
+    -webkit-box-shadow: 0px 0px 1px black;
+}
+
+div.user_info{
+    border: 1px solid transparent;
+    width: 20%;
+    height: 40px;
+/*    这个margintop为啥是负的！！*/
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+p.username{
+    font-size: 1.5em;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+p.time{
+    line-height: 0.1em;
+}
+
+div.moment_content{
+    border: 1px solid transparent;
+    width: 80%;
+    height: 40%;
+    font-size: 1.6em;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+hr{
+    width: 90%;
+    position: absolute;
+    top: 120px;
+    left: 5%;
+}
+
+a.contact{
+    font-size: 1.5em;
+    cursor: pointer;
+/*    display: none;*/
+    position: absolute;
+    bottom: 8px;
+    left: 24%;
+    
+}
+
+a.like{
+    font-size: 1.5em;
+    cursor: pointer;
+/*    display: none;*/
+    position: absolute;
+    bottom: 8px;
+    left: 74%;
+}
+
+b{
+    position: absolute;
+    bottom: 8px;
+    left: 49%;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+div#footer{
+/*    原始样式定义在basic.css里*/
+}
+
+div#tooltip{
+    position: absolute;
+    display: none;
+    border: 1px solid black;
+    padding: 5px;
+    background: white;
+}
+
+p#name{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+p#tel,
+p#mail{
+    font-size: 1.5em;
+}
+
+div#user1{
+    background-image: url(../pics/kkk.jpg);
+    background-size: cover;
+}
+
+div#user2{
+    background-image: url(../pics/cris.jpg);
+    background-size: cover;
+}
+
+div#user3{
+    background-image: url(../pics/zyz.jpg);
+    background-size: cover;
+}
+
+div#new_photo{
+    background-image: url(../pics/automan.jpg);
+    background-size: cover;
+}
+
+
+div.moment_blocks{
+    box-shadow: 0px 3px 10px black;
+    -moz-box-shadow: 0px 3px 10px black;
+    -ms-box-shadow: 0px 3px 10px black;
+    -o-box-shadow: 0px 3px 10px black;
+    -webkit-box-shadow: 0px 3px 10px black;
+}
+
+textarea#textarea_input{
+    box-shadow: 0px 1px 5px black;
+    -o-box-shadow: 0px 1px 5px black;
+    -ms-box-shadow: 0px 1px 5px black;
+    -moz-box-shadow: 0px 1px 5px black;
+    -webkit-box-shadow: 0px 1px 5px black;
+}
+
+a.contact:hover,
+a.like:hover{
+    text-shadow: 0px 0px 1px dodgerblue;
+    -o-text-shadow: 0px 0px 1px dodgerblue;
+    -ms-text-shadow: 0px 0px 1px dodgerblue;
+    -moz-text-shadow: 0px 0px 1px dodgerblue;
+    -webkit-text-shadow: 0px 0px 1px dodgerblue;
+}

@@ -1,0 +1,236 @@
+body{
+    overflow-x: hidden;
+}
+
+#content{
+    background-image: url(../pics/cloud.jpg);
+    background-size: cover;
+    height: 92%;
+}
+
+
+#content_main{
+    border: 2px solid transparent;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+}
+
+
+
+p.ad{
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: default;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    
+}
+
+p#let{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 6em;
+    font-family: cursive;
+    letter-spacing: 6px;
+}
+
+
+p#ex{
+    text-align: center;
+    font-size: 8em;
+    font-family: cursive;
+}
+
+p#let:hover{
+    letter-spacing: 10px;
+    color: dodgerblue;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px black,
+                 0px 10px 15px aliceblue;
+}
+
+p#ex:hover{
+    color: dodgerblue;
+    letter-spacing: 10px;
+    text-shadow: 0px 0px 10px black,
+                 0px 10px 10px aliceblue;
+}
+
+
+button#start{
+    height: 3em;
+    width: 8em;
+    color: #fff;
+    background-color: dodgerblue;
+    font-family: "微软雅黑";
+    border: none;
+    margin-left: 45%;
+    margin-top: 1em;
+/*    文字增多后需要调整margintop*/
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    
+}
+
+button#start:hover{
+    box-shadow: 0 0 20px blue;
+    -o-box-shadow: 0 0 20px blue;
+    -ms-box-shadow: 0 0 20px blue;
+    -moz-box-shadow: 0 0 20px blue;
+    -webkit-box-shadow: 0 0 20px blue;
+}
+
+div#page_title{
+    border: 1px solid purple;
+    width: 100%;
+    height: 20%;
+    background-color: #089D80;
+    text-align: center;
+    color: #fff;
+}
+
+.hr{
+    background-color: #078494;;
+    width: 60%;
+    height: 2px;
+    border: 0px;
+}
+
+
+div#celebrity{
+    border: 1px solid #232F34;
+    width: 100%;
+}
+
+div.items{
+    width: 100%;
+    background-color: #252F34;
+    color: #fff;
+    overflow: hidden;
+}
+
+div.items:nth-child(odd){
+    background-color: #2B2F39;
+}
+
+div.photo{
+    border: 1px solid gray;
+    width: 20em;
+    height: 20em;
+    overflow: hidden;
+}
+
+div.left{
+    float: left;
+}
+
+div.right{
+    float: right;
+}
+
+div#jobs div.photo{
+    background-image: url(../pics/SteveJobs.jpg);
+    background-size: cover;
+}
+
+div#zuckerberg div.photo{
+    background-image: url(../pics/zuckerberg.jpg);
+    background-size: cover;
+}
+
+div#mayun div.photo{
+    background-image: url(../pics/mayun.jpg);
+    background-size: cover;
+}
+
+div#mahuateng div.photo{
+    background-image: url(../pics/mahuateng.jpg);
+    background-size: cover;
+}
+
+div#liyanhong div.photo{
+    background-image: url(../pics/liyanhong.jpg);
+    background-size: cover;
+}
+
+p.name{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0px;
+}
+
+div.articleRight{
+    border: 1px solid transparent;
+    padding-left: 21em;
+    padding-right: 1em;
+    margin-top: 0px;
+}
+
+div.articleLeft{
+    border: 1px solid transparent;
+    padding-left: 1em;
+    padding-right: 21em;
+    margin-top: 0px;
+}
+
+div.board p{
+    font-size: 1.6em;
+    line-height: 2em;
+    margin-left: 15px;
+}
+
+img#slide{
+    margin-left: 47%;
+    margin-top: 5em;
+    height: 2em;
+    width: 4em;
+    cursor: pointer;
+}
+
+div.photo p{
+    cursor: default;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive, "微软雅黑";
+    opacity: 0;
+    margin-top: 50%;
+    background-color: rgba(0,0,0,0.6);
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -webkit-transition: all 1s;
+    transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    
+}
+
+
+div.photo:hover p{
+    opacity: 1;
+    margin-top: 30%;
+    transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+}

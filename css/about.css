@@ -1,0 +1,39 @@
+body{
+    overflow: hidden;
+}
+
+div#content{
+    background-image: url(../pics/cloud.jpg);
+    background-size: cover;
+/*    height: 80%;*/
+}
+
+h1{
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+hr{
+    border-style: ridge;
+    width: 50%;
+    border-color: black;
+    margin-top: 0;
+}
+
+div#about{
+    width: 50%;
+    margin-left: 25%;
+}
+
+div > p{
+    font-size: 2em;
+    font-family: "微软雅黑";
+}
+
+div#contact{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3em;
+}

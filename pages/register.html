@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>注册</title>
+        <link rel="icon" href="../pics/chuang_icon.png">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/basic.css">
+        <link rel="stylesheet" href="../css/register.css">
+    </head>
+    <body>
+        <div id="nav">
+             <div id="logo">
+                <a href="../index.html" title="创·不凡">创·不凡</a>
+            </div>
+            <ul>
+                    <li>
+                        <a href="../index.html">首页</a>
+                </li>
+                <li>
+                    <a href="" class="loginFirst">创业项目</a>
+                </li>
+                    <li>
+                        <a href="" class="loginFirst">创业动态</a>
+                </li>
+                    <li>
+                        <a href="" class="loginFirst">政策宣传</a>
+                </li>
+                    <li>
+                        <a href="" class="loginFirst">关于我们</a>
+                </li>
+                </ul>
+            
+            <div id="user">
+                <img id="user_icon" src="../pics/useroffline.ico">
+                <a href="login.html" title="登录">登录</a>|
+                <a href="" title="注册">注册</a>
+            </div>
+        </div>
+        
+        <div id="placeholder"></div>
+        
+        <div id="content">
+            <form id="form_register" method="post">
+                <fieldset>
+                    <legend>注册表单</legend>
+                    <label class="label_text">用户名&nbsp;&nbsp;&nbsp;</label>
+                    <input class="user_info" id="username" type="text">
+                    <label id="username_error" class="error_message">*用户名不能为空！</label>
+                    <br>
+                    
+                    <label class="label_text">密&nbsp;&nbsp;&nbsp;&nbsp;码&nbsp;&nbsp;&nbsp;</label>
+                    <input class="user_info" id="password" type="password">
+                    <label id="password_error" class="error_message">*请输入密码！</label>
+                    <br>
+                    
+                    <label class="label_text">确认密码</label>
+                    <input class="user_info" id="password2" type="password">
+                    <label id="password2_error" class="error_message">*两次输入的密码不一致！</label>
+                    <br>
+                    
+                    <label class="label_text">邮&nbsp;&nbsp;&nbsp;&nbsp;箱&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input class="user_info" id="mailbox" type="email">
+                    <label id="mailbox_error" class="error_message">*请输入正确的邮箱！</label>
+                    <br>
+                    
+                    <label class="label_text">性&nbsp;&nbsp;&nbsp;&nbsp;别&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <select class="user_info" id="gender">
+                        <option value="male">男</option>
+                        <option value="female">女</option>
+                    </select><br>
+                    
+                    <label class="label_text">学&nbsp;&nbsp;&nbsp;&nbsp;校&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input class="user_info" id="school" type="text">
+                    <label id="school_error" class="error_message">*请输入你的学校！</label>
+                    <br>
+                    
+                    <label class="label_text">专&nbsp;&nbsp;&nbsp;&nbsp;业&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input class="user_info" id="major" type="text">
+                    <label id="major_error" class="error_message">*请输入你的专业！</label>
+                    <br>
+                    
+                    <button id="submit">注册</button>
+                    <a href="index%E2%88%9A.html" target="_self" id="jump"></a>
+                    
+                </fieldset>
+            </form>
+        </div>
+        <div id="footer">
+            <address>Designed by Kyrie Liu</address>
+            <address>Contact: kyrieliu02@163.com</address>
+        </div>
+        
+        <script type="text/javascript" src="../jQuery/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="../js/register.js"></script>
+    </body>
+</html>
